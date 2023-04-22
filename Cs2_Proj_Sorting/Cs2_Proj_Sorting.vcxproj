@@ -127,12 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Select_Sort.cpp" />
-    <ClCompile Include="Source.cpp" />
+    <ClInclude Include="Fill.h" />
+    <ClInclude Include="Merge_Sort.h" />
+    <ClInclude Include="Select_Sort.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Fill.h" />
-    <ClInclude Include="Select_Sort.h" />
+    <ClCompile Include="Merge_Sort.cpp" />
+    <ClCompile Include="Select_Sort.cpp" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
