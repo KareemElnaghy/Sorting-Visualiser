@@ -8,10 +8,10 @@ int main()
 	int num = 10001;
 	int* arr = new int[num];
 	Fill(arr, num);
-	//for (int i = 0; i < num; i++)
-	//{
-	//	cout << arr[i] << " ";
-	//}
+	for (int i = 0; i < num; i++)
+	{
+		cout << arr[i] << " ";
+	}
 	cout << endl << endl;
 	//Select_Sort sortedtest(arr, num);
 	//cout << sortedtest.get_count() << endl << endl;
