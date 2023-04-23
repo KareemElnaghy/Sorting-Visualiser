@@ -128,11 +128,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Fill.h" />
+    <ClInclude Include="insertionSort.h" />
     <ClInclude Include="Merge_Sort.h" />
     <ClInclude Include="Select_Sort.h" />
     <ClInclude Include="Sorting.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="insertionSort.cpp" />
     <ClCompile Include="Merge_Sort.cpp" />
     <ClCompile Include="Select_Sort.cpp" />
     <ClCompile Include="Sorting.cpp" />

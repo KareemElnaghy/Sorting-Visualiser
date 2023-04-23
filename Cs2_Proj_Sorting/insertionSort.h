@@ -5,26 +5,18 @@
 //  Created by jana hegazy on 23/04/2023.
 //
 
-#ifndef Header_h
-#define Header_h
-
-class insertionSort
-{
-private:
-    
-    int *arr;
-    int size;
-    int counter;
-    
+#ifndef INSERTIONSORT_H
+#define INSERTIONSORT_H
+#include"Sorting.h"
+class insertionSort: public Sorting
+{    
 public:
     insertionSort();
-    insertionSort(int *, int);
+    insertionSort(int *, int,int);
     ~insertionSort();
     void fillArr();
     void sortArr();
-    void printArr() const;
-    int getCount();
-    int getSize();
+    int Get_Size() const;
     
     
     
