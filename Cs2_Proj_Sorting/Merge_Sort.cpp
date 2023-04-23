@@ -1,7 +1,7 @@
 #include "Merge_Sort.h"
 #include"Fill.h"
 #include<iostream>
-Merge_Sort::Merge_Sort(int* ar, int left,int right) : compare(0), arr(ar), size(right)
+Merge_Sort::Merge_Sort(int* ar, int left,int right) : Sorting(ar,right+1,0)
 {
     if (right > left)
     {
@@ -49,19 +49,7 @@ void Merge_Sort::Merge(int* ar, int left, int mid, int right)
     delete[]temp;//returns the borrowed memory to the heap
 
 }
-
-
-int Merge_Sort::get_count() const
+int Merge_Sort::Get_Size() const
 {
-	return this->compare;
-}
-void Merge_Sort::print_arr() const
-{
-    for (int i = 0; i < size+1; i++)
-        std::cout << arr[i] << " ";
-}
-
-int Merge_Sort::get_Size() const
-{
-    return size+1;
+    return this->size+1;
 }
