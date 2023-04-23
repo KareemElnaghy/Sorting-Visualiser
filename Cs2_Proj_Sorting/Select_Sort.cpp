@@ -30,7 +30,7 @@ void Select_Sort::Swap(int& x, int& y)
 
 void Select_Sort::print_arr() const
 {
-	for (int i = 0; i < size; i++)
+	for (int i = 0; i <= size; i++)
 		std::cout << arr[i] << " ";
 }
 
