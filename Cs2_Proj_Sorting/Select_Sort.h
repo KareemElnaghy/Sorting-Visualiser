@@ -11,7 +11,9 @@ private:
 	int compare;
 public:
 	Select_Sort(int*, int);
-	int get_count();
+	void print_arr() const;
+	int get_count() const;
+	int get_Size() const;
 	void Swap(int&, int&);
 };
 #endif

@@ -8,17 +8,16 @@ int main()
 	int num = 101;
 	int* arr = new int[num];
 	Fill(arr, num);
-	cout << endl;
 	for (int i = 0; i < num; i++)
 	{
 		cout << arr[i] << " ";
-    }
+	}
 	cout << endl << endl;
-	Select_Sort sortedtest(arr, num);
-	cout << sortedtest.get_count() << endl << endl;
-	for (int i = 0; i < num; i++)
-		cout << arr[i] << " ";
-
-
+	//Select_Sort sortedtest(arr, num);
+	//cout << sortedtest.get_count() << endl << endl;
+	//sortedtest.print_arr();
+	Merge_Sort testing(arr, 1, num);
+	testing.print_arr();
+	cout << endl << testing.get_Size()<<endl << testing.get_count();
 	return 0;
 }
