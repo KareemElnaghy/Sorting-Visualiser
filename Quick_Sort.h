@@ -10,7 +10,7 @@
 
 class QuickSort_1
 {
-private:
+protected:
     int *arr;
     int size;
     static int counter;
@@ -21,7 +21,6 @@ public:
     int* getArr();  //returns array
     int getSize();  //returns size of array
     int getCounter();   //returns comparison
-    void incrementCount();  //increments counter by 1
     void fillArr(); //fills the array with random numbers with no duplicates
    virtual int partition(int *, int, int);  //virtual partition faction
    virtual void SortArr(int*, int, int);    //quick sort function
