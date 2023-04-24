@@ -33,8 +33,3 @@ void Select_Sort::Swap(int& x, int& y)
 	}
 }
 
-
-int Select_Sort::Get_Size() const
-{
-	return size;
-}
