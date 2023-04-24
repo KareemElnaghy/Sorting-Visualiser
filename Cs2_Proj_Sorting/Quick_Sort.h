@@ -14,7 +14,6 @@ class QuickSort_1:public Sorting
 public:
     QuickSort_1(int*, int);   //arguementative constructor
     ~QuickSort_1();
-    int* getArr();  //returns array
    virtual int partition(int *, int, int);  //virtual partition faction
     virtual void SortArr(int*, int, int);    //quick sort function
      void Sort();
