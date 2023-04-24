@@ -40,10 +40,6 @@ int QuickSort_1::getCounter()
     return counter;
 }
 
-void QuickSort_1::incrementCount()
-{
-    counter++;
-}
 
 void QuickSort_1::fillArr()
 {
