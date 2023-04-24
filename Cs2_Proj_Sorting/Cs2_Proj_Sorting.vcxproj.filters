@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Fill.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="Select_Sort.h">
       <Filter>Header Files</Filter>
     </ClInclude>

@@ -127,7 +127,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Fill.h" />
     <ClInclude Include="insertionSort.h" />
     <ClInclude Include="Merge_Sort.h" />
     <ClInclude Include="Select_Sort.h" />

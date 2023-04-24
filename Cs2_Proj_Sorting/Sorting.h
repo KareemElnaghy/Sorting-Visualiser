@@ -1,4 +1,8 @@
-#pragma once
+#ifndef SORTING_H
+#define SORTING_H
+#include<iostream>
+#include<ctime>
+#include<cstdlib>
 class Sorting
 {
 protected:
@@ -6,10 +10,13 @@ protected:
 	int size;
 	int compare;
 public:
-	Sorting(int*, int, int);
+	Sorting(int*, int);
 	void print_arr() const;
 	int Get_count() const;
 	void Set_count(int);
-	virtual int Get_Size() const = 0;
+	void Fill();
+	virtual void Sort() = 0;
+	virtual int Get_Size() const;
 };
+#endif
 

@@ -1,16 +1,25 @@
 #include "Merge_Sort.h"
-#include"Fill.h"
 #include<iostream>
-Merge_Sort::Merge_Sort(int* ar, int left,int right) : Sorting(ar,right+1,0)
+Merge_Sort::Merge_Sort(int* ar, int left, int right) : Sorting(ar, right + 1), r(right), l(left)
+{
+   
+}
+
+void Merge_Sort::Sort(int* ar,int left,int right)
 {
     if (right > left)
     {
         int mid = (left + right) / 2;
-        Merge_Sort(arr, left, mid);
-        Merge_Sort(arr, mid + 1, right);
+        Sort(arr, left, mid);
+        Sort(arr, mid + 1, right);
         Merge(arr, left, mid, right);
     }
 
+}
+
+  void Merge_Sort::Sort()
+{
+      Sort(arr, l, r);
 }
 
 void Merge_Sort::Merge(int* ar, int left, int mid, int right)
@@ -32,7 +41,7 @@ void Merge_Sort::Merge(int* ar, int left, int mid, int right)
             temp[k++] = ar[j];
             j++;
         }
-        compare++;
+       // compare++;
     }
     while (i <= mid) //loop to drop the remaining contents of the left half array into the temporary array
     {
@@ -48,8 +57,4 @@ void Merge_Sort::Merge(int* ar, int left, int mid, int right)
     }
     delete[]temp;//returns the borrowed memory to the heap
 
-}
-int Merge_Sort::Get_Size() const
-{
-    return this->size+1;
 }
