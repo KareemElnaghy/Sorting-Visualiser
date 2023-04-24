@@ -21,11 +21,6 @@ QuickSort_1::~QuickSort_1()
     delete[]arr;
 }
 
-int* QuickSort_1::getArr()
-{
-    return arr;
-}
-
 int QuickSort_1::Get_Size()const
 {
     return size;
