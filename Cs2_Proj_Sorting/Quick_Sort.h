@@ -7,31 +7,24 @@
 
 #ifndef Quick_Sort_h
 #define Quick_Sort_h
+#include "Sorting.h"
 
-class QuickSort_1
+class QuickSort_1:public Sorting
 {
-protected:
-    int *arr;
-    int size;
-    static int counter;
 public:
-    QuickSort_1();  //default constructor
-    ~QuickSort_1(); //destructor
-    QuickSort_1(int);   //arguementative constructor
+    QuickSort_1(int*, int);   //arguementative constructor
+    ~QuickSort_1();
     int* getArr();  //returns array
-    int getSize();  //returns size of array
-    int getCounter();   //returns comparison
-    void fillArr(); //fills the array with random numbers with no duplicates
    virtual int partition(int *, int, int);  //virtual partition faction
    virtual void SortArr(int*, int, int);    //quick sort function
-    void PrintArr() const;  //prints the array
+   int Get_Size()const;
 };
 
 class QuickSort_2: public QuickSort_1
 {
 public:
-    QuickSort_2();  //default copy constructor
-    QuickSort_2(int);   //argumentative copy constructor
+ 
+    QuickSort_2(int*, int);   //argumentative copy constructor
     int randomPartition(int *, int, int);   //randomPartition function to randomise pivot
     void SortArr(int*, int, int);   //quickSort function for derived class
 };

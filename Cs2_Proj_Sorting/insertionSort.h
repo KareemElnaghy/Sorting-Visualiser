@@ -11,10 +11,8 @@
 class insertionSort: public Sorting
 {    
 public:
-    insertionSort();
-    insertionSort(int *, int,int);
+    insertionSort(int *, int);
     ~insertionSort();
-    void fillArr();
     void sortArr();
     int Get_Size() const;
     

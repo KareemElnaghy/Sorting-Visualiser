@@ -5,29 +5,19 @@
 //  Created by jana hegazy on 23/04/2023.
 //
 
-#include "Fill.h"// the common header file of the filling randomly an array
 #include <iostream>
 #include "insertionSort.h"
 using namespace std;
 
+insertionSort::insertionSort(int* j, int n) : Sorting(j, n)
+    {
 
-insertionSort:: insertionSort(): Sorting(NULL,0,0)
-    {
-        
-    }
-insertionSort::insertionSort(int* j, int n,int x) : Sorting(j, n,x)
-    {
-  
-        
     }
 insertionSort:: ~insertionSort()
     {
         delete[] arr;
     }
-void insertionSort:: fillArr()
-    {
-        Fill(arr, size);// the common header file where we fill arrays
-    }
+
     void insertionSort:: sortArr()
     {
         int key;
@@ -42,6 +32,7 @@ void insertionSort:: fillArr()
                 compare++;
                 j = j - 1;
             }
+            compare++;
             arr[j + 1] = key;
         }
     }

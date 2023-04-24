@@ -6,10 +6,10 @@ protected:
 	int size;
 	int compare;
 public:
-	Sorting(int*, int, int);
+	Sorting(int*, int);
 	void print_arr() const;
 	int Get_count() const;
-	void Set_count(int);
-	virtual int Get_Size() const = 0;
+	virtual int Get_Size() const;
+	void Fill();
 };
 

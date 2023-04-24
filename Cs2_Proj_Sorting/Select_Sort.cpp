@@ -1,7 +1,7 @@
 #include "Select_Sort.h"
-#include"Fill.h"
+
 #include<iostream>
-Select_Sort::Select_Sort(int* a, int s) : min(1), Sorting(a, s, 0)
+Select_Sort::Select_Sort(int* a, int s) : min(1), Sorting(a, s)
 {
 	for (int i =1; i < size-1; i++)
 	{

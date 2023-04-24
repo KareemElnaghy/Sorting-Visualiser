@@ -1,7 +1,6 @@
 #include "Merge_Sort.h"
-#include"Fill.h"
 #include<iostream>
-Merge_Sort::Merge_Sort(int* ar, int left,int right) : Sorting(ar,right+1,0)
+Merge_Sort::Merge_Sort(int* ar, int left,int right) : Sorting(ar,right+1)
 {
     if (right > left)
     {

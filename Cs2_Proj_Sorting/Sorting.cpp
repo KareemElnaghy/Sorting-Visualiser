@@ -2,9 +2,9 @@
 #define SORTING_H
 #include "Sorting.h"
 #include<iostream>
-Sorting::Sorting(int* x, int y, int z):arr(x),size(y),compare(z)
+Sorting::Sorting(int* x, int y) :arr(x), size(y), compare(0)
 {
-
+	Fill();
 }
 void Sorting::print_arr() const
 {
@@ -16,9 +16,28 @@ int Sorting::Get_count() const
 {
     return compare;
 }
-void Sorting::Set_count(int x)
+
+ int Sorting::Get_Size() const
 {
-    compare = x;
+	 return size;
 }
+
+void Sorting::Fill()
+{
+	srand(time(NULL));
+	for (int i = 0; i < size; i++)//loop that fills the array with the required data elements( numbers from 1-num)
+	{
+		arr[i] = i;
+	}
+	for (int i = 2; i < size; i++)//loop that shuffles the content of the array randomly
+	{
+		int j = (rand() % i) + 1;
+		int temp = arr[i];
+		arr[i] = arr[j];
+		arr[j] = temp;
+	}
+
+}
+
 #endif
 
