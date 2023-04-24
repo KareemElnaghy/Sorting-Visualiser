@@ -3,7 +3,12 @@
 #include<iostream>
 Select_Sort::Select_Sort(int* a, int s) : min(1), Sorting(a, s)
 {
-	for (int i =1; i < size-1; i++)
+
+
+}
+void Select_Sort::Sort()
+{
+	for (int i = 1; i < size - 1; i++)
 	{
 		min = i;
 		for (int j = i + 1; j < size; j++)

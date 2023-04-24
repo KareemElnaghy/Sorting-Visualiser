@@ -1,5 +1,4 @@
-#ifndef SORTING_H
-#define SORTING_H
+
 #include "Sorting.h"
 #include<iostream>
 Sorting::Sorting(int* x, int y) :arr(x), size(y), compare(0)
@@ -17,10 +16,6 @@ int Sorting::Get_count() const
     return compare;
 }
 
- int Sorting::Get_Size() const
-{
-	 return size;
-}
 
 void Sorting::Fill()
 {
@@ -39,5 +34,5 @@ void Sorting::Fill()
 
 }
 
-#endif
+
 

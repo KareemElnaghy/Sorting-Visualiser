@@ -13,8 +13,7 @@ class insertionSort: public Sorting
 public:
     insertionSort(int *, int);
     ~insertionSort();
-    void sortArr();
-    int Get_Size() const;
+    void Sort();
     
     
     

@@ -1,4 +1,5 @@
-#pragma once
+#ifndef SORTING_H
+#define SORTING_H
 class Sorting
 {
 protected:
@@ -9,7 +10,7 @@ public:
 	Sorting(int*, int);
 	void print_arr() const;
 	int Get_count() const;
-	virtual int Get_Size() const;
 	void Fill();
+	virtual void Sort() = 0;
 };
-
+#endif

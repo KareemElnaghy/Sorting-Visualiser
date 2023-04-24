@@ -52,6 +52,7 @@ int QuickSort_1::partition(int *q, int low, int high) {
       return temp;
 }
 
+
 void QuickSort_1::SortArr(int *array, int low, int high) 
 {    //Quicksort function
     if (low < high) 
@@ -60,6 +61,11 @@ void QuickSort_1::SortArr(int *array, int low, int high)
         SortArr(array, low, pivotIndex - 1);
         SortArr(array, pivotIndex + 1, high);
     }
+}
+
+void QuickSort_1::Sort()
+{
+    SortArr(arr, 0, size - 1);
 }
 
 

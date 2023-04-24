@@ -18,7 +18,7 @@ insertionSort:: ~insertionSort()
         delete[] arr;
     }
 
-    void insertionSort:: sortArr()
+    void insertionSort::Sort()
     {
         int key;
         int j;
@@ -37,10 +37,7 @@ insertionSort:: ~insertionSort()
         }
     }
    
-    int insertionSort::Get_Size() const
-    {
-        return size;
-    }
+
     
     
 
