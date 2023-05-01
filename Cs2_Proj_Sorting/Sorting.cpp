@@ -5,6 +5,12 @@ Sorting::Sorting(int* x, int y) :arr(x), size(y), compare(0)
 {
 	Fill();
 }
+
+Sorting::~Sorting()
+{
+	delete[] arr;
+}
+
 void Sorting::print_arr() const
 {
     for (int i = 0; i < size; i++)

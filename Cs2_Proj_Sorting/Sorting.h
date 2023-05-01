@@ -8,6 +8,7 @@ protected:
 	int compare;
 public:
 	Sorting(int*, int);
+	~Sorting();
 	void print_arr() const;
 	int Get_count() const;
 	void Fill();

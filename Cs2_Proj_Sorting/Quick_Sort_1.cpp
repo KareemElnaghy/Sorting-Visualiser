@@ -16,15 +16,6 @@ QuickSort_1::QuickSort_1(int* x, int y)
    
 }
 
-QuickSort_1::~QuickSort_1()
-{
-    delete[]arr;
-}
-
-int QuickSort_1::Get_Size()const
-{
-    return size;
-}
 
 
 int QuickSort_1::partition(int *q, int low, int high) {

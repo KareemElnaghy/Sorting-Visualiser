@@ -13,11 +13,9 @@ class QuickSort_1:public Sorting
 {
 public:
     QuickSort_1(int*, int);   //arguementative constructor
-    ~QuickSort_1();
    virtual int partition(int *, int, int);  //virtual partition faction
     virtual void SortArr(int*, int, int);    //quick sort function
      void Sort();
-   int Get_Size()const;
 };
 
 class QuickSort_2: public QuickSort_1

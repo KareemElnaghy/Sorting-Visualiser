@@ -13,10 +13,6 @@ insertionSort::insertionSort(int* j, int n) : Sorting(j, n)
     {
 
     }
-insertionSort:: ~insertionSort()
-    {
-        delete[] arr;
-    }
 
     void insertionSort::Sort()
     {
