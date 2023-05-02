@@ -13,5 +13,6 @@ public:
 	int Get_count() const;
 	void Fill();
 	virtual void Sort() = 0;
+    virtual void Swap(int &, int &);
 };
 #endif

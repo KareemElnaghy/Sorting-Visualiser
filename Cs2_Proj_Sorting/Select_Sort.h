@@ -8,7 +8,6 @@ private:
 	int min;
 public:
 	Select_Sort(int*, int);
-	void Swap(int&, int&);
 	virtual void Sort();
 };
 #endif

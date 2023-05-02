@@ -20,7 +20,7 @@ int QuickSort_2::randomPartition(int *q, int low, int high)
     srand(time(NULL));      //random seed generator
     int randomIndex = (rand() % (high - low)) + low;   //Assigns random index between highest index and lowest index
     
-    swap(*(q+(randomIndex)),*(q+(low))); //swaps random index element with first element
+    Swap(*(q+(randomIndex)),*(q+(low))); //swaps random index element with first element
 
     
     return partition(q, low, high); //uses same partition function as base class

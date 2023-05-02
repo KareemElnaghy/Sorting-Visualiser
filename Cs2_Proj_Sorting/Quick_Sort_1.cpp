@@ -27,13 +27,13 @@ int QuickSort_1::partition(int *q, int low, int high) {
           
           if (*(q+i) > pivot)
           {
-              swap(*(q+i), *(q+(temp--)));
+              Swap(*(q+i), *(q+(temp--)));
           }
 
               compare++;
           
       }
-      swap(*(q+low), *(q+temp));
+      Swap(*(q+low), *(q+temp));
         
       return temp;
 }
