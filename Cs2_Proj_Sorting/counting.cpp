@@ -1,4 +1,4 @@
-#include "counting_radix.h"
+#include "Counting_Sort.h"
 using namespace std;
 
 
@@ -7,7 +7,7 @@ Counting::Counting(int* x, int y) : Sorting(x, y)
         
     }
 
-    int Counting::getMax()
+    int Counting::getMax()const
     {
         int max = *(arr);
         for (int i = 1; i < size; i++)
@@ -19,7 +19,7 @@ Counting::Counting(int* x, int y) : Sorting(x, y)
         return max;
     }
 
-    int Counting::getMin()
+    int Counting::getMin()const
     {
         int min = *(arr);
         for (int i = 1; i < size; i++)

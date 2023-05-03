@@ -4,7 +4,7 @@ class Sorting
 {
 protected:
 	int* arr;
-	int size;
+	const int size;
 	int compare;
 public:
 	Sorting(int*, int);
@@ -14,5 +14,6 @@ public:
 	void Fill();
 	virtual void Sort() = 0;
     virtual void Swap(int &, int &);
+  
 };
 #endif

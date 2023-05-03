@@ -1,10 +1,25 @@
 
-#include "counting_radix.h"
+#include "Radix_Sort.h"
+#include <algorithm>
 using namespace std;
-Radix::Radix(int* x, int y) : Counting(x, y)
+Radix::Radix(int* x, int y) : Sorting(x, y)
 {
 
 }
+
+int Radix::getMax()const
+{
+    int max = *(arr);
+    for (int i = 1; i < size; i++)
+    {
+        
+        if (*(arr + i) > max)
+            max = *(arr + i);
+    }
+
+    return max;
+}
+
 
 void Radix::Sort()
 {
