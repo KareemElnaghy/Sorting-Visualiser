@@ -13,7 +13,7 @@
 using namespace std;
 int main()
 {
-	int num = 11;
+	int num = 1001;
     int* arr= new int[num];
 
 //    Select_Sort testing(arr, num);
