@@ -4,13 +4,16 @@ class Sorting
 {
 protected:
 	int* arr;
-	int size;
+	const int size;
 	int compare;
 public:
 	Sorting(int*, int);
+	~Sorting();
 	void print_arr() const;
 	int Get_count() const;
 	void Fill();
 	virtual void Sort() = 0;
+    virtual void Swap(int &, int &);
+  
 };
 #endif

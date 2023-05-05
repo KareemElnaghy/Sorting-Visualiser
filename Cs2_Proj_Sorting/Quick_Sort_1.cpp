@@ -16,20 +16,6 @@ QuickSort_1::QuickSort_1(int* x, int y)
    
 }
 
-QuickSort_1::~QuickSort_1()
-{
-    delete[]arr;
-}
-
-int* QuickSort_1::getArr()
-{
-    return arr;
-}
-
-int QuickSort_1::Get_Size()const
-{
-    return size;
-}
 
 
 int QuickSort_1::partition(int *q, int low, int high) {
@@ -41,13 +27,13 @@ int QuickSort_1::partition(int *q, int low, int high) {
           
           if (*(q+i) > pivot)
           {
-              swap(*(q+i), *(q+(temp--)));
+              Swap(*(q+i), *(q+(temp--)));
           }
 
               compare++;
           
       }
-      swap(*(q+low), *(q+temp));
+      Swap(*(q+low), *(q+temp));
         
       return temp;
 }

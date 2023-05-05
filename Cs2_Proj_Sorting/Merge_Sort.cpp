@@ -31,29 +31,29 @@ void Merge_Sort::Merge(int* ar, int left, int mid, int right)
     int* temp = new int[right - left + 1];
     while (i <= mid && j <= right) //sorts and merges the 2 half arrays into the temporary array
     {
-        if (ar[i] <= ar[j])
+        if (*(ar + i) <= *(ar + j))
         {
-            temp[k++] = ar[i];
+            *(temp + k++) = *(ar + i);
             i++;
         }
         else
         {
-            temp[k++] = ar[j];
+            *(temp + k++) = *(ar + j);
             j++;
         }
        // compare++;
     }
     while (i <= mid) //loop to drop the remaining contents of the left half array into the temporary array
     {
-        temp[k++] = ar[i++];
+        *(temp + k++) = *(ar + i++);
     }
     while (j <= right)//loop to drop the remaining contents of the right half array into the temporary array
     {
-        temp[k++] = ar[j++];
+        *(temp + k++) = *(ar + j++);
     }
     for (int i = left, k = 0; i <= right; i++,k++)//loop to copy the temp array into the original array
     {
-        arr[i] = temp[k];
+        *(ar + i) = *(temp + k);
     }
     delete[]temp;//returns the borrowed memory to the heap
 

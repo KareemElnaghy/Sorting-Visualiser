@@ -12,7 +12,6 @@ class insertionSort: public Sorting
 {    
 public:
     insertionSort(int *, int);
-    ~insertionSort();
     void Sort();
     
     
