@@ -14,7 +14,7 @@ Sorting::~Sorting()
 void Sorting::print_arr() const
 {
     for (int i = 0; i < size; i++)
-        std::cout << arr[i] << " ";
+        std::cout << *(arr+i) << " ";
 }
 
 int Sorting::Get_count() const
