@@ -10,7 +10,7 @@ private:
 	void Merge(int*, int, int, int);
 	virtual void Sort(int*, int, int);
 public:
-	Merge_Sort(int*, int,int);
+	Merge_Sort(int*, int, int);
 	virtual void Sort();
 
 };

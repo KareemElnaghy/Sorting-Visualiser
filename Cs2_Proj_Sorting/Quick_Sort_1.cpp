@@ -6,48 +6,29 @@
 //
 
 #include "Quick_Sort.h"
-#include "Fill.h"
 #include <iostream>
 using namespace std;
 
-QuickSort_1::QuickSort_1():size(0), arr(nullptr)
+
+QuickSort_1::QuickSort_1(int* x, int y) 
+    : Sorting(x, y)
 {
+   
 }
 
 QuickSort_1::~QuickSort_1()
 {
-    delete arr;
+    delete[]arr;
 }
-
-QuickSort_1::QuickSort_1(int n): size(n)
-{
-    arr = new int [size];
-}
-int QuickSort_1::counter = 0;
 
 int* QuickSort_1::getArr()
 {
     return arr;
 }
 
-int QuickSort_1::getSize()
+int QuickSort_1::Get_Size()const
 {
     return size;
-}
-
-int QuickSort_1::getCounter()
-{
-    return counter;
-}
-
-void QuickSort_1::incrementCount()
-{
-    counter++;
-}
-
-void QuickSort_1::fillArr()
-{
-    Fill(arr,size);
 }
 
 
@@ -63,7 +44,7 @@ int QuickSort_1::partition(int *q, int low, int high) {
               swap(*(q+i), *(q+(temp--)));
           }
 
-              counter++;
+              compare++;
           
       }
       swap(*(q+low), *(q+temp));
@@ -71,19 +52,21 @@ int QuickSort_1::partition(int *q, int low, int high) {
       return temp;
 }
 
-void QuickSort_1::SortArr(int *array, int low, int high) {    //Quicksort function
-    if (low < high) {
+
+void QuickSort_1::SortArr(int *array, int low, int high) 
+{    //Quicksort function
+    if (low < high) 
+    {
         int pivotIndex = partition(array, low, high);
         SortArr(array, low, pivotIndex - 1);
         SortArr(array, pivotIndex + 1, high);
     }
 }
-void QuickSort_1::PrintArr() const
+
+void QuickSort_1::Sort()
 {
-    for(int i = 0; i<size; i++)
-        cout<<*(arr + i)<<"  ";
-    
-    cout<<endl;
+    SortArr(arr, 0, size - 1);
 }
+
 
 

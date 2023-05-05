@@ -1,8 +1,9 @@
 #include "Select_Sort.h"
+
 #include<iostream>
 Select_Sort::Select_Sort(int* a, int s) : min(1), Sorting(a, s)
 {
-	
+
 
 }
 void Select_Sort::Sort()

@@ -2,10 +2,10 @@
 #include<iostream>
 Merge_Sort::Merge_Sort(int* ar, int left, int right) : Sorting(ar, right + 1), r(right), l(left)
 {
-   
+
 }
 
-void Merge_Sort::Sort(int* ar,int left,int right)
+void Merge_Sort::Sort(int* ar, int left, int right)
 {
     if (right > left)
     {
@@ -17,9 +17,9 @@ void Merge_Sort::Sort(int* ar,int left,int right)
 
 }
 
-  void Merge_Sort::Sort()
+void Merge_Sort::Sort()
 {
-      Sort(arr, l, r);
+    Sort(arr, l, r);
 }
 
 void Merge_Sort::Merge(int* ar, int left, int mid, int right)

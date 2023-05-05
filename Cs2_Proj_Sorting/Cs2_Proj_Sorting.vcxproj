@@ -129,12 +129,17 @@
   <ItemGroup>
     <ClInclude Include="insertionSort.h" />
     <ClInclude Include="Merge_Sort.h" />
+    <ClInclude Include="Quick_Sort.h">
+      <DeploymentContent>true</DeploymentContent>
+    </ClInclude>
     <ClInclude Include="Select_Sort.h" />
     <ClInclude Include="Sorting.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="insertionSort.cpp" />
     <ClCompile Include="Merge_Sort.cpp" />
+    <ClCompile Include="Quick_Sort_1.cpp" />
+    <ClCompile Include="Quick_Sort_2.cpp" />
     <ClCompile Include="Select_Sort.cpp" />
     <ClCompile Include="Sorting.cpp" />
     <ClCompile Include="Source.cpp" />

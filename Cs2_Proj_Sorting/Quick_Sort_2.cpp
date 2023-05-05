@@ -11,11 +11,7 @@
 #include <iostream>
 using namespace std;
 
-QuickSort_2::QuickSort_2():QuickSort_1()
-{
-}
-
-QuickSort_2::QuickSort_2(int n): QuickSort_1(n) //calls constructor of base class
+QuickSort_2::QuickSort_2(int* x, int y): QuickSort_1(x, y) //calls constructor of base class
 {
 }
 
