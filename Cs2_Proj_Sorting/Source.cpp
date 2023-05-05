@@ -6,6 +6,7 @@
 #include "Counting_Sort.h"
 #include "Radix_Sort.h"
 #include "Bubble_Sort.h"
+#include "Comb_Sort.h"
 
 #include<iostream>
 using namespace std;
@@ -85,8 +86,19 @@ int main()
 //    cout << endl;
 //    cout << "Comparisons: " << testing2.Get_count() << endl;
 
-    cout<<endl<<"Bubble Sort"<<endl;
-    Counting testing(arr, num);
+//    cout<<endl<<"Bubble Sort"<<endl;
+//    Counting testing(arr, num);
+//    cout<<"Unsorted Array: "<<endl;
+//    testing.print_arr();
+//    cout << endl;
+//    testing.Sort();
+//    cout<<"Unsorted Array: "<<endl;
+//    testing.print_arr();
+//    cout << endl;
+//    cout << "Comparisons: " << testing.Get_count() << endl;
+
+    cout<<endl<<"Comb Sort"<<endl;
+    Comb testing(arr, num);
     cout<<"Unsorted Array: "<<endl;
     testing.print_arr();
     cout << endl;
@@ -95,6 +107,4 @@ int main()
     testing.print_arr();
     cout << endl;
     cout << "Comparisons: " << testing.Get_count() << endl;
-
-
 }

@@ -5,7 +5,7 @@
 //  Created by Kareem Elnaghy on 5/3/23.
 //
 
-#include "Bubble_Sort.hpp"
+#include "Bubble_Sort.h"
 
 Bubble::Bubble(int *x, int y):Sorting(x, y)
 {
