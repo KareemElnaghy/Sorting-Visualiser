@@ -24,7 +24,7 @@ public:
 class Tree: public BinaryST, public Sorting //tree sort class inherits from both sorting and the BST classes
 {
     public:
-    Tree(int*, int);
+    Tree(int);
     void Sort();
     void setCount(int);
     void inOrderTrav(BinaryST*, int &);

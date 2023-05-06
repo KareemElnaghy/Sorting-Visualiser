@@ -13,7 +13,7 @@ class Heap_Sort:public Sorting
 {
 public:
 void heapify(int*, int, int);
-Heap_Sort(int*,int);
+Heap_Sort(int);
 void Sort();
 
 

@@ -10,8 +10,8 @@
 using namespace std;
 
 
-QuickSort_1::QuickSort_1(int* x, int y) 
-    : Sorting(x, y)
+QuickSort_1::QuickSort_1(int y)
+    : Sorting(y)
 {
    
 }

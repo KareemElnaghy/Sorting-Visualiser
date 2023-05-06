@@ -1,21 +1,9 @@
-#include"Merge_Sort.h"
-#include"Select_Sort.h"
-#include "Heap_Sort.h"
-#include "Sorting.h"
-#include"insertionSort.h"
-#include "Quick_Sort.h"
-#include "Counting_Sort.h"
-#include "Radix_Sort.h"
-#include "Bubble_Sort.h"
-#include "Comb_Sort.h"
-#include "Tree_Sort.h"
-
+#include "sorting_algorithms.h"
 #include<iostream>
 using namespace std;
 int main()
 {
-	int num = 1001;
-    int* arr= new int[num];
+	int num = 6;
 
 //    Select_Sort testing(arr, num);
 //    cout<<"Unsorted Array: "<<endl;
@@ -56,18 +44,18 @@ int main()
 //    cout << endl;
 //    cout << "Comparisons: " << testing.Get_count() << endl;
 //
-//    insertionSort testing(arr, num);
-//    cout<<"Unsorted Array: "<<endl;
-//    testing.print_arr();
-//    cout << endl;
-//    testing.Sort();
-//    cout<<"Unsorted Array: "<<endl;
-//    testing.print_arr();
-//    cout << endl;
-//    cout << "Comparisons: " << testing.Get_count() << endl;
+    insertionSort testing(num);
+    cout<<"Unsorted Array: "<<endl;
+    testing.print_arr();
+    cout << endl;
+    testing.Sort();
+    cout<<"Unsorted Array: "<<endl;
+    testing.print_arr();
+    cout << endl;
+    cout << "Comparisons: " << testing.Get_count() << endl;
 
 //    cout<<endl<<"Radix Sort"<<endl;
-//    Radix testing(arr, num);
+//    Radix testing(num);
 //    cout<<"Unsorted Array: "<<endl;
 //    testing.print_arr();
 //    cout << endl;
@@ -78,7 +66,7 @@ int main()
 //    cout << "Comparisons: " << testing.Get_count() << endl;
     
 //    cout<<endl<<"Counting Sort"<<endl;
-//    Counting testing2(arr2, num);
+//    Counting testing2(num);
 //    cout<<"Unsorted Array: "<<endl;
 //    testing2.print_arr();
 //    cout << endl;
@@ -89,7 +77,7 @@ int main()
 //    cout << "Comparisons: " << testing2.Get_count() << endl;
 
 //    cout<<endl<<"Bubble Sort"<<endl;
-//    Counting testing(arr, num);
+//    Counting testing(num);
 //    cout<<"Unsorted Array: "<<endl;
 //    testing.print_arr();
 //    cout << endl;
@@ -100,7 +88,7 @@ int main()
 //    cout << "Comparisons: " << testing.Get_count() << endl;
 
 //    cout<<endl<<"Comb Sort"<<endl;
-//    Comb testing(arr, num);
+//    Comb testing(num);
 //    cout<<"Unsorted Array: "<<endl;
 //    testing.print_arr();
 //    cout << endl;
@@ -111,7 +99,7 @@ int main()
 //    cout << "Comparisons: " << testing.Get_count() << endl;
     
 //    cout<<endl<<"Tree Sort"<<endl;
-//    Tree testing(arr, num);
+//    Tree testing(num);
 //    cout<<"Unsorted Array: "<<endl;
 //    testing.print_arr();
 //    cout << endl;
@@ -121,14 +109,25 @@ int main()
 //    cout << endl;
 //    cout << "Comparisons: " << testing.Get_count() << endl;
     
-    cout<<endl<<"Heap Sort"<<endl;
-    Heap_Sort testing(arr, num);
-    cout<<"Unsorted Array: "<<endl;
-    testing.print_arr();
-    cout << endl;
-    testing.Sort();
-    cout<<"Unsorted Array: "<<endl;
-    testing.print_arr();
-    cout << endl;
-    cout << "Comparisons: " << testing.Get_count() << endl;
+//    cout<<endl<<"Heap Sort"<<endl;
+//    Heap_Sort testing(num);
+//    cout<<"Unsorted Array: "<<endl;
+//    testing.print_arr();
+//    cout << endl;
+//    testing.Sort();
+//    cout<<"Unsorted Array: "<<endl;
+//    testing.print_arr();
+//    cout << endl;
+//    cout << "Comparisons: " << testing.Get_count() << endl;
+    
+//    cout<<endl<<"Shell Sort"<<endl;
+//    Shell testing(num);
+//    cout<<"Unsorted Array: "<<endl;
+//    testing.print_arr();
+//    cout << endl;
+//    testing.Sort();
+//    cout<<"Unsorted Array: "<<endl;
+//    testing.print_arr();
+//    cout << endl;
+//    cout << "Comparisons: " << testing.Get_count() << endl;
 }

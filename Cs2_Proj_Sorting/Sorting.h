@@ -7,7 +7,7 @@ protected:
 	const int size;
 	int compare;
 public:
-	Sorting(int*, int);
+	Sorting(int);
 	~Sorting();
 	void print_arr() const;
 	int Get_count() const;

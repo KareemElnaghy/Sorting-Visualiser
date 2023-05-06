@@ -12,7 +12,7 @@
 class Bubble: public Sorting
 {
 public:
-    Bubble(int *, int);
+    Bubble(int);
     virtual void Sort();
 };
 #endif /* Bubble_Sort_hpp */

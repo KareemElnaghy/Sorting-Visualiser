@@ -7,7 +7,7 @@
 
 #include "Heap_Sort.h"
 
-Heap_Sort::Heap_Sort(int* x, int s) : Sorting(x, s)
+Heap_Sort::Heap_Sort(int s) : Sorting(s)
 {
 for (int i = (size / 2) - 1; i >= 0; i--)
 heapify(arr, i, size);

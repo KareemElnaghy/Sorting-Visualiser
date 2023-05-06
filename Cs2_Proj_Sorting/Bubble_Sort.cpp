@@ -7,7 +7,7 @@
 
 #include "Bubble_Sort.h"
 
-Bubble::Bubble(int *x, int y):Sorting(x, y)
+Bubble::Bubble(int y):Sorting(y)
 {
     
 }

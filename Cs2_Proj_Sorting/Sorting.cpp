@@ -1,8 +1,9 @@
 
 #include "Sorting.h"
 #include<iostream>
-Sorting::Sorting(int* x, int y) :arr(x), size(y), compare(0)
+Sorting::Sorting(int y) : size(y), compare(0)
 {
+    arr = new int[size];
 	Fill();
 }
 

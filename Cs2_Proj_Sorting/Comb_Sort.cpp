@@ -7,7 +7,7 @@
 
 #include "Comb_Sort.h"
 
-Comb::Comb(int *x, int y): Sorting(x, y)
+Comb::Comb(int y): Sorting(y)
 {
     
 }

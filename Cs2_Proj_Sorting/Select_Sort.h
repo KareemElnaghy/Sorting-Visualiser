@@ -7,7 +7,7 @@ class Select_Sort : public Sorting
 private:
 	int min;
 public:
-	Select_Sort(int*, int);
+	Select_Sort(int);
 	virtual void Sort();
 };
 #endif

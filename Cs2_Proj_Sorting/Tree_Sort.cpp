@@ -38,7 +38,7 @@ BinaryST* BinaryST::insertValue(BinaryST* node, int x)    //Insert function
         return node;
 }
 
-Tree::Tree(int* x, int y): Sorting(x, y)    //paramterized constructor
+Tree::Tree(int y): Sorting(y)    //paramterized constructor
 {
     
 }

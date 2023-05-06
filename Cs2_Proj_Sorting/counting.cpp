@@ -1,8 +1,7 @@
 #include "Counting_Sort.h"
-using namespace std;
 
 
-Counting::Counting(int* x, int y) : Sorting(x, y)
+Counting::Counting(int y) : Sorting(y)
     {
         
     }

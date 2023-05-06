@@ -2,7 +2,7 @@
 #include "Radix_Sort.h"
 #include <algorithm>
 using namespace std;
-Radix::Radix(int* x, int y) : Sorting(x, y)
+Radix::Radix(int y) : Sorting(y)
 {
 
 }

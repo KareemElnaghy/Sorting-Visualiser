@@ -13,7 +13,7 @@ class Radix: public Sorting
 {
 public:
 
-    Radix(int*, int);   //argumentative copy constructor
+    Radix(int);   //argumentative copy constructor
     void Sort();
     void countSort(int);
     int getMax()const;

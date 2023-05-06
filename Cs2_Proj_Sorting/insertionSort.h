@@ -11,7 +11,7 @@
 class insertionSort: public Sorting
 {    
 public:
-    insertionSort(int *, int);
+    insertionSort(int);
     void Sort();
     
     

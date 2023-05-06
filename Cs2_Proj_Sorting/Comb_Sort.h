@@ -12,7 +12,7 @@
 class Comb:public Sorting
 {
 public:
-    Comb(int *, int);
+    Comb(int);
     void Sort();
     int nextGap(int);
 };

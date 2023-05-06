@@ -5,7 +5,7 @@
 class Counting: public Sorting
 {
 public:
-    Counting(int*, int);   //arguementative constructor
+    Counting(int);   //arguementative constructor
     void Sort();
     int getMax()const;
     int getMin()const;
