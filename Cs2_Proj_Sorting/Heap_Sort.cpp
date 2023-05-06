@@ -1,9 +1,6 @@
 //
 //  Heap_Sort.cpp
-//  TEMP
-//
-//  Created by Kareem Elnaghy on 5/6/23.
-//
+
 
 #include "Heap_Sort.h"
 

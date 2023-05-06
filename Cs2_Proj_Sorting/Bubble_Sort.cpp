@@ -1,10 +1,4 @@
-//
-//  Bubble_Sort.cpp
-//  TEMP
-//
-//  Created by Kareem Elnaghy on 5/3/23.
-//
-
+//Bubble_Sort.cpp
 #include "Bubble_Sort.h"
 
 Bubble::Bubble(int y):Sorting(y)

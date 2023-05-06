@@ -1,13 +1,7 @@
-//
-//  Quick Sort.cpp
-//  Sorting Algorithms
-//
-//  Created by Kareem Elnaghy on 4/17/23.
-//
+//Quick_Sort_1.cpp
 
 #include "Quick_Sort.h"
-#include <iostream>
-using namespace std;
+
 
 
 QuickSort_1::QuickSort_1(int y)

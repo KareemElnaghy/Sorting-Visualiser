@@ -1,6 +1,7 @@
-
+//Sorting.cpp
 #include "Sorting.h"
-#include<iostream>
+#include <iostream>
+
 Sorting::Sorting(int y) : size(y), compare(0)
 {
     arr = new int[size];

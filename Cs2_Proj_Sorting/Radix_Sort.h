@@ -1,9 +1,4 @@
-//
-//  Radix_Sort.h
-//  Temporary
-//
-//  Created by Kareem Elnaghy on 5/3/23.
-//
+//Radix_Sort.h
 
 #ifndef Radix_Sort_h
 #define Radix_Sort_h

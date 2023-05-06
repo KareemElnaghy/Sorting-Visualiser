@@ -1,9 +1,4 @@
-//
-//  Tree_Sort.hpp
-//  TEMP
-//
-//  Created by Kareem Elnaghy on 5/5/23.
-//
+// Tree_Sort.h
 
 #ifndef Tree_Sort_h
 #define Tree_Sort_h

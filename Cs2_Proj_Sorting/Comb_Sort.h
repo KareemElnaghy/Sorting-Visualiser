@@ -1,9 +1,5 @@
-//
-//  Comb_Sort.hpp
-//  TEMP
-//
-//  Created by Kareem Elnaghy on 5/5/23.
-//
+// Comb_Sort.h
+
 
 #ifndef Comb_Sort_h
 #define Comb_Sort_h

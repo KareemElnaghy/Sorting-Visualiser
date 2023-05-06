@@ -1,12 +1,7 @@
 //
 //  Tree_Sort.cpp
-//  TEMP
-//
-//  Created by Kareem Elnaghy on 5/5/23.
-//
 
 #include "Tree_Sort.h"
-#include <iostream>
 BinaryST::BinaryST():info(0),left(nullptr),right(nullptr)   //Default constructor
 {
     

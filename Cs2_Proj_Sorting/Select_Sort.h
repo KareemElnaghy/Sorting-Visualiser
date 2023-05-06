@@ -1,6 +1,7 @@
+//Select_Sort.h
+
 #ifndef SELECTIONSORT_H
 #define SELECTIONSORT_H
-#include<iostream>
 #include "Sorting.h"
 class Select_Sort : public Sorting
 {

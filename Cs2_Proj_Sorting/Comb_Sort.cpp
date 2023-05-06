@@ -1,9 +1,4 @@
-//
-//  Comb_Sort.cpp
-//  TEMP
-//
-//  Created by Kareem Elnaghy on 5/5/23.
-//
+//Comb_Sort.cpp
 
 #include "Comb_Sort.h"
 

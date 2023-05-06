@@ -1,10 +1,4 @@
-//
-//  Bubble_Sort.hpp
-//  TEMP
-//
-//  Created by Kareem Elnaghy on 5/3/23.
-//
-
+//Bubble_Sort.h
 #ifndef Bubble_Sort_hpp
 #define Bubble_Sort_hpp
 #include "Sorting.h"

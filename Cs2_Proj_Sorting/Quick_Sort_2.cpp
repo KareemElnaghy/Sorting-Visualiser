@@ -1,15 +1,7 @@
-//
-//  Quick_Sort_2.cpp
-//  Sorting Algorithms
-//
-//  Created by Kareem Elnaghy on 4/19/23.
-//
-
+//Quick_Sort_2.cpp
 #include "Quick_Sort.h"
 #include <ctime>
 #include <cstdlib>
-#include <iostream>
-using namespace std;
 
 QuickSort_2::QuickSort_2(int y): QuickSort_1(y) //calls constructor of base class
 {

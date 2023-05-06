@@ -1,6 +1,8 @@
+//Select_Sort.cpp
+
 #include "Select_Sort.h"
 
-#include<iostream>
+
 Select_Sort::Select_Sort(int s) : min(1), Sorting(s)
 {
 

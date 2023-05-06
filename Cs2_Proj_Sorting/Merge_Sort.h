@@ -1,6 +1,8 @@
+//Merge_Sort.h
+
 #ifndef MERGESORT_H
 #define MERGESORT_H
-#include<iostream>
+
 #include"Sorting.h"
 class Merge_Sort :public Sorting
 {

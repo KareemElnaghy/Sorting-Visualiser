@@ -1,11 +1,5 @@
-//
-//  main.cpp
-//  Insertion Sort
-//
-//  Created by jana hegazy on 23/04/2023.
-//
+//insertionSort.cpp
 
-#include <iostream>
 #include "insertionSort.h"
 using namespace std;
 

@@ -1,9 +1,6 @@
 //
 //  sorting_algorithms.h
-//  TEMP
-//
-//  Created by Kareem Elnaghy on 5/6/23.
-//
+
 
 #ifndef SORTING_ALGORITHMS_H
 #define SORTING_ALGORITHMS_H

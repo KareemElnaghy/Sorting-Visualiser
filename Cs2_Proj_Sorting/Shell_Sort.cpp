@@ -1,9 +1,6 @@
 //
 //  Shell_Sort.cpp
-//  TEMP
-//
-//  Created by Kareem Elnaghy on 5/6/23.
-//
+
 
 #include "Shell_Sort.h"
 Shell::Shell(int x):Sorting(x)

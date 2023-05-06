@@ -1,9 +1,4 @@
-//
-//  Quick Sort.h
-//  Sorting Algorithms
-//
-//  Created by Kareem Elnaghy on 4/17/23.
-//
+//Quick_Sort.h
 
 #ifndef Quick_Sort_h
 #define Quick_Sort_h
