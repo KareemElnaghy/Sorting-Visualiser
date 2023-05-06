@@ -1,6 +1,6 @@
 #include"Merge_Sort.h"
 #include"Select_Sort.h"
-
+#include "Heap_Sort.h"
 #include "Sorting.h"
 #include"insertionSort.h"
 #include "Quick_Sort.h"
@@ -110,8 +110,19 @@ int main()
 //    cout << endl;
 //    cout << "Comparisons: " << testing.Get_count() << endl;
     
-    cout<<endl<<"Tree Sort"<<endl;
-    Tree testing(arr, num);
+//    cout<<endl<<"Tree Sort"<<endl;
+//    Tree testing(arr, num);
+//    cout<<"Unsorted Array: "<<endl;
+//    testing.print_arr();
+//    cout << endl;
+//    testing.Sort();
+//    cout<<"Unsorted Array: "<<endl;
+//    testing.print_arr();
+//    cout << endl;
+//    cout << "Comparisons: " << testing.Get_count() << endl;
+    
+    cout<<endl<<"Heap Sort"<<endl;
+    Heap_Sort testing(arr, num);
     cout<<"Unsorted Array: "<<endl;
     testing.print_arr();
     cout << endl;
