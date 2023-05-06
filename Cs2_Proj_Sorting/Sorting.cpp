@@ -34,9 +34,7 @@ void Sorting::Fill()
     for (int i = 2; i < size; i++) // loop that shuffles the content of the array randomly
     {
         int j = (rand() % i) + 1;
-        int temp = *(arr + i);
-        *(arr + i) = *(arr + j);
-        *(arr + j) = temp;
+        Swap(*(arr+i), *(arr+j));
     }
 }
 
