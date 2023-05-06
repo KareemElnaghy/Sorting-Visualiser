@@ -12,7 +12,7 @@ int main()
 //    testing.print_arr();
 //    cout << endl;
 //    testing.Sort();
-//    cout<<"Unsorted Array: "<<endl;
+//    cout<<"Sorted Array: "<<endl;
 //    testing.print_arr();
 //    cout << endl;
 //    cout << "Comparisons: " << testing.Get_count() << endl;
@@ -31,7 +31,7 @@ int main()
 //    testing.print_arr();
 //    cout << endl;
 //    testing.Sort();
-//    cout<<"Unsorted Array: "<<endl;
+//    cout<<"Sorted Array: "<<endl;
 //    testing.print_arr();
 //    cout << endl;
 //    cout << "Comparisons: " << testing.Get_count() << endl;
@@ -41,7 +41,7 @@ int main()
 //    testing.print_arr();
 //    cout << endl;
 //    testing.Sort();
-//    cout<<"Unsorted Array: "<<endl;
+//    cout<<"Sorted Array: "<<endl;
 //    testing.print_arr();
 //    cout << endl;
 //    cout << "Comparisons: " << testing.Get_count() << endl;
@@ -51,7 +51,7 @@ int main()
 //    testing.print_arr();
 //    cout << endl;
 //    testing.Sort();
-//    cout<<"Unsorted Array: "<<endl;
+//    cout<<"Sorted Array: "<<endl;
 //    testing.print_arr();
 //    cout << endl;
 //    cout << "Comparisons: " << testing.Get_count() << endl;
@@ -62,7 +62,7 @@ int main()
 //    testing.print_arr();
 //    cout << endl;
 //    testing.Sort();
-//    cout<<"Unsorted Array: "<<endl;
+//    cout<<"Sorted Array: "<<endl;
 //    testing.print_arr();
 //    cout << endl;
 //    cout << "Comparisons: " << testing.Get_count() << endl;
@@ -73,7 +73,7 @@ int main()
 //    testing2.print_arr();
 //    cout << endl;
 //    testing2.Sort();
-//    cout<<"Unsorted Array: "<<endl;
+//    cout<<"Sorted Array: "<<endl;
 //    testing2.print_arr();
 //    cout << endl;
 //    cout << "Comparisons: " << testing2.Get_count() << endl;
@@ -84,7 +84,7 @@ int main()
 //    testing.print_arr();
 //    cout << endl;
 //    testing.Sort();
-//    cout<<"Unsorted Array: "<<endl;
+//    cout<<"Sorted Array: "<<endl;
 //    testing.print_arr();
 //    cout << endl;
 //    cout << "Comparisons: " << testing.Get_count() << endl;
@@ -95,7 +95,7 @@ int main()
 //    testing.print_arr();
 //    cout << endl;
 //    testing.Sort();
-//    cout<<"Unsorted Array: "<<endl;
+//    cout<<"Sorted Array: "<<endl;
 //    testing.print_arr();
 //    cout << endl;
 //    cout << "Comparisons: " << testing.Get_count() << endl;
@@ -106,7 +106,7 @@ int main()
     testing.print_arr();
     cout << endl;
     testing.Sort();
-    cout<<"Unsorted Array: "<<endl;
+    cout<<"Sorted Array: "<<endl;
     testing.print_arr();
     cout << endl;
     cout << "Comparisons: " << testing.Get_count() << endl;
@@ -117,7 +117,7 @@ int main()
 //    testing.print_arr();
 //    cout << endl;
 //    testing.Sort();
-//    cout<<"Unsorted Array: "<<endl;
+//    cout<<"Sorted Array: "<<endl;
 //    testing.print_arr();
 //    cout << endl;
 //    cout << "Comparisons: " << testing.Get_count() << endl;
@@ -128,7 +128,7 @@ int main()
 //    testing.print_arr();
 //    cout << endl;
 //    testing.Sort();
-//    cout<<"Unsorted Array: "<<endl;
+//    cout<<"Sorted Array: "<<endl;
 //    testing.print_arr();
 //    cout << endl;
 //    cout << "Comparisons: " << testing.Get_count() << endl;
