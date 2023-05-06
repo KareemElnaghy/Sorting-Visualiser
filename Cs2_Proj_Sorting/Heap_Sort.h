@@ -9,11 +9,11 @@
 #define Heap_Sort_hpp
 #include "Sorting.h"
 
-class Heap_Sort:public Sorting
+class Heap:public Sorting
 {
 public:
 void heapify(int*, int, int);
-Heap_Sort(int);
+Heap(int);
 void Sort();
 
 

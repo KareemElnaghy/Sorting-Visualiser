@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-	int num = 6;
+	int num = 1001;
 
 //    Select_Sort testing(arr, num);
 //    cout<<"Unsorted Array: "<<endl;

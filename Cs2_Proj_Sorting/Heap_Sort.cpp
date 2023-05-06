@@ -7,14 +7,14 @@
 
 #include "Heap_Sort.h"
 
-Heap_Sort::Heap_Sort(int s) : Sorting(s)
+Heap::Heap(int s) : Sorting(s)
 {
 for (int i = (size / 2) - 1; i >= 0; i--)
 heapify(arr, i, size);
     
 }
 
-void Heap_Sort::heapify(int *arr,int i,int s)
+void Heap::heapify(int *arr,int i,int s)
 {
 int max = i;
 int l = (2 * i) + 1;
@@ -36,7 +36,7 @@ if (i!=max)
 }
 }
 
-void Heap_Sort::Sort()
+void Heap::Sort()
 {
 for (int i = size - 1; i >= 0; i--)
 {

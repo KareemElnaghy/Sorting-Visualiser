@@ -17,7 +17,7 @@ insertionSort::insertionSort(int n) : Sorting(n)
 void insertionSort::Sort()
 {
     int key, i, j;
-        for(int i=1; i<size; i++)
+        for(i=1; i<size; i++)
         {
             
             key=*(arr+i);
