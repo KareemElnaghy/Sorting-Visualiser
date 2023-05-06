@@ -40,11 +40,11 @@ BinaryST* BinaryST::insertValue(BinaryST* node, int x)    //Insert function
 
 Tree::Tree(int y): Sorting(y)    //paramterized constructor
 {
-    
+    root = nullptr;
 }
 void Tree::Sort()
 {
-    BinaryST *root = nullptr;
+    
     int i =0;
     
     root = insertValue(root, *arr);     //creates the root of the tree
