@@ -1,6 +1,8 @@
 //Sorting.cpp
 #include "Sorting.h"
 #include <iostream>
+#include <cstdlib>
+#include <ctime>
 
 Sorting::Sorting(int y) : size(y), compare(0)
 {
