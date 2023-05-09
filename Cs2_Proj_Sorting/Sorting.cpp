@@ -28,7 +28,7 @@ int Sorting::Get_count() const
 void Sorting::Fill()
 {
     srand(time(NULL));
-    for (int i = 0; i < size; i++) // loop that fills the array with the required data elements (numbers from 1-num)
+    for (int i = 0; i < size; i++) // loop that fills the array with the required data elements (numbers from 0 to size-1)
     {
         *(arr + i) = i;
     }
