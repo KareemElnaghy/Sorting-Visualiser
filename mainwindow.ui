@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1337</width>
+    <height>655</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="Radix_Button">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>510</y>
+      <width>93</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Radix Sort</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Heap_Button">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>510</y>
+      <width>93</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Heap Sort</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Tree_Button">
+    <property name="geometry">
+     <rect>
+      <x>980</x>
+      <y>510</y>
+      <width>93</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Tree Sort</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Insertion_Button">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>510</y>
+      <width>111</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Insertion Sort</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Quick_Button">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>510</y>
+      <width>93</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Quick Sort</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Bubble_Button">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>510</y>
+      <width>93</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Bubble Sort</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Merge_button">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>510</y>
+      <width>93</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Merge Sort</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Comb_Button">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>510</y>
+      <width>93</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Comb Sort</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Counting_Button">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>510</y>
+      <width>111</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Counting Sort</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Quick_Button_2">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>510</y>
+      <width>93</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Quick Sort 2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Shell_Button">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>510</y>
+      <width>93</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Shell Sort 3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>550</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Comaprisons count :</string>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>1281</width>
+      <height>481</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="CompCount">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>550</y>
+      <width>63</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="ArraySize">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>550</y>
+      <width>113</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="arraySize_Button">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>550</y>
+      <width>131</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set Size Of Array</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Generate_Button">
+    <property name="geometry">
+     <rect>
+      <x>1180</x>
+      <y>510</y>
+      <width>131</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Regenerate Array</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SetDelayButton">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>550</y>
+      <width>151</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>set Delay Time</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="DelayTiming">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>550</y>
+      <width>113</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <zorder>graphicsView</zorder>
+   <zorder>Radix_Button</zorder>
+   <zorder>Heap_Button</zorder>
+   <zorder>Tree_Button</zorder>
+   <zorder>Insertion_Button</zorder>
+   <zorder>Quick_Button</zorder>
+   <zorder>Bubble_Button</zorder>
+   <zorder>Merge_button</zorder>
+   <zorder>Comb_Button</zorder>
+   <zorder>Counting_Button</zorder>
+   <zorder>Quick_Button_2</zorder>
+   <zorder>Shell_Button</zorder>
+   <zorder>label</zorder>
+   <zorder>CompCount</zorder>
+   <zorder>ArraySize</zorder>
+   <zorder>arraySize_Button</zorder>
+   <zorder>Generate_Button</zorder>
+   <zorder>SetDelayButton</zorder>
+   <zorder>DelayTiming</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1337</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
