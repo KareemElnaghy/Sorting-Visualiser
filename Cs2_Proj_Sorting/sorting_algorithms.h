@@ -17,4 +17,6 @@
 #include "Comb_Sort.h"
 #include "Tree_Sort.h"
 #include "Shell_Sort.h"
+#include<iostream>
+
 #endif // SORTING_ALGORITHMS_H

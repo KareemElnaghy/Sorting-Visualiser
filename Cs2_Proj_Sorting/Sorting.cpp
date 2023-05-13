@@ -1,6 +1,7 @@
 //Sorting.cpp
 #include "Sorting.h"
 #include <iostream>
+#include <fstream>
 #include <cstdlib>
 #include <ctime>
 
@@ -15,10 +16,14 @@ Sorting::~Sorting()
 	delete[] arr;
 }
 
-void Sorting::print_arr() const
+void Sorting::print_arr(std::string file_name) const
 {
+    std::ofstream oFile;
+    oFile.open(file_name);
     for (int i = 0; i < size; i++)
-        std::cout << *(arr+i) << " ";
+        oFile << *(arr+i) << " ";
+    
+    oFile.close();
 }
 
 int Sorting::Get_count() const

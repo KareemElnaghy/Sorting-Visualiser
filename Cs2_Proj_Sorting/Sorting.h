@@ -2,6 +2,7 @@
 
 #ifndef SORTING_H
 #define SORTING_H
+#include <string>
 class Sorting
 {
 protected:
@@ -11,7 +12,7 @@ protected:
 public:
 	Sorting(int);
 	~Sorting();
-	void print_arr() const;
+	void print_arr(std::string) const;
 	int Get_count() const;
 	void Fill();
 	virtual void Sort() = 0;
