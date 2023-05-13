@@ -23,7 +23,6 @@ private:
 public:
     Tree(int);
     void Sort();
-    void setCount(int);
     void inOrderTrav(BinaryST*, int &);
 };
 
