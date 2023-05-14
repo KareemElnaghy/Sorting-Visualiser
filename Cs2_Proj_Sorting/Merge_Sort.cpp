@@ -43,7 +43,7 @@ void Merge_Sort::Merge(int* ar, int left, int mid, int right)
             *(temp + k++) = *(ar + j);
             j++;
         }
-       // compare++;
+        compare++;
     }
     while (i <= mid) //loop to drop the remaining contents of the left half array into the temporary array
     {
