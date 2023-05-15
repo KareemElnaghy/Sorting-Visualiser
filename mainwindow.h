@@ -55,6 +55,8 @@ private slots:
 
     void on_Radix_Button_clicked();
 
+    void on_Selection_Sort_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
