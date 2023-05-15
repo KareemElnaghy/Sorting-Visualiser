@@ -33,6 +33,8 @@ QPen whitePen(Qt::white);
 int* temparr;
 int xcoordinate = -390;
 int ycoordinate = 500;
+//int xcoordinate = 3900;
+//int ycoordinate = 5000;
   QGraphicsScene *scene;
 
   void Delay(int x)
@@ -130,11 +132,11 @@ int nextGap(int x)
 void Filling(int* arr,int size)
 {
     srand(time(NULL));
-    for (int i = 0; i < size; i++) // loop that fills the array with the required data elements (numbers from 0 to size-1)
+    for (int i = 0; i < size; i++) \
     {
         *(arr + i) = i;
     }
-    for (int i = 2; i < size; i++) // loop that shuffles the content of the array randomly
+    for (int i = 2; i < size; i++)
     {
         int j = (rand() % i) + 1;
         int temp=*(arr+i);
@@ -238,7 +240,6 @@ void heapify(int *arr, int n, int i,QLabel* com) {
 
     else
       {
-          // Set the brush color for the sorted rectangle to green
           rectangle[i]->setBrush(greenBrush);
           scene->update();
           Delay(dtime);
@@ -255,7 +256,8 @@ MainWindow::MainWindow(QWidget *parent)
     scene=new QGraphicsScene(this);
     ui->graphicsView->setScene(scene);
     scene->setBackgroundBrush(blackBrush);
-   ui-> graphicsView->setSceneRect(0,0,500,470);
+  ui-> graphicsView->setSceneRect(0,0,500,470);
+    //ui-> graphicsView->setSceneRect(0,0,10000,10000);
 
 }
 
@@ -274,11 +276,10 @@ void MainWindow::on_Generate_Button_clicked()
     // Create a QGraphicsRectItem
     rectangle[i] = new QGraphicsRectItem();
 
-    // Set the rectangle's width and height
     rectangle[i]->setRect(xcoordinate+(elementwidth*i), ycoordinate, elementwidth, -temparr[i]*elementheight);
     rectangle[i]->setPen(blackPen);
     rectangle[i]->setBrush(whiteBrush);
-    // Add the rectangle to the QGraphicsScene
+ // Add the rectangle to the QGraphicsScene
     scene->addItem(rectangle[i]);
     scene->update();
             Delay(dtime);
@@ -1009,4 +1010,54 @@ void MainWindow::on_Radix_Button_clicked()
     }
 }
 
+
+
+void MainWindow::on_Selection_Sort_clicked()
+{
+    compare=0;
+
+    for (int i = 0; i < NUM - 1; i++)
+    {
+        int min = i;
+
+        rectangle[min]->setBrush(redBrush);  // set the color of the minimum element to green
+        scene->update();
+        Delay(dtime);
+
+        for (int j = i + 1; j < NUM; j++)
+        {
+            rectangle[j]->setBrush(redBrush);  // set the color of the current element being compared to blue
+            scene->update();
+            Delay(dtime);
+
+            if (*(temparr+j) < *(temparr+min))
+            {
+                rectangle[min]->setBrush(whiteBrush);  // set the color of the old minimum element to white
+                min = j;
+                rectangle[min]->setBrush(greenBrush);  // set the color of the new minimum element to green
+                scene->update();
+                Delay(dtime);
+            }
+
+            rectangle[j]->setBrush(whiteBrush);  // set the color of the current element back to white
+            compare++;
+            ui->CompCount->setText(QString::number(compare));
+        }
+
+        if (min != i)
+        {
+            Swap(*(temparr+i), *(temparr+min));
+            rectangle[i]->setRect(xcoordinate+(elementwidth*i), ycoordinate, elementwidth, -temparr[i]*elementheight);
+            rectangle[min]->setRect(xcoordinate+(elementwidth*min), ycoordinate, elementwidth, -temparr[min]*elementheight);
+        }
+
+        rectangle[min]->setBrush(whiteBrush);  // set the color of the minimum element back to white
+        rectangle[i]->setBrush(greenBrush);  // set the color of the sorted element to green
+        scene->update();
+        Delay(dtime);
+    }
+
+rectangle[NUM-1]->setBrush(greenBrush);
+scene->update();
+}
 
