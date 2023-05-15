@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1337</width>
-    <height>655</height>
+    <height>784</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,8 +17,8 @@
    <widget class="QPushButton" name="Radix_Button">
     <property name="geometry">
      <rect>
-      <x>660</x>
-      <y>510</y>
+      <x>640</x>
+      <y>560</y>
       <width>93</width>
       <height>29</height>
      </rect>
@@ -30,8 +30,8 @@
    <widget class="QPushButton" name="Heap_Button">
     <property name="geometry">
      <rect>
-      <x>1080</x>
-      <y>510</y>
+      <x>1060</x>
+      <y>560</y>
       <width>93</width>
       <height>29</height>
      </rect>
@@ -43,8 +43,8 @@
    <widget class="QPushButton" name="Tree_Button">
     <property name="geometry">
      <rect>
-      <x>980</x>
-      <y>510</y>
+      <x>960</x>
+      <y>560</y>
       <width>93</width>
       <height>29</height>
      </rect>
@@ -56,8 +56,8 @@
    <widget class="QPushButton" name="Insertion_Button">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>510</y>
+      <x>420</x>
+      <y>560</y>
       <width>111</width>
       <height>29</height>
      </rect>
@@ -69,8 +69,8 @@
    <widget class="QPushButton" name="Quick_Button">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>510</y>
+      <x>220</x>
+      <y>560</y>
       <width>93</width>
       <height>29</height>
      </rect>
@@ -82,8 +82,8 @@
    <widget class="QPushButton" name="Bubble_Button">
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>510</y>
+      <x>320</x>
+      <y>560</y>
       <width>93</width>
       <height>29</height>
      </rect>
@@ -95,8 +95,8 @@
    <widget class="QPushButton" name="Merge_button">
     <property name="geometry">
      <rect>
-      <x>560</x>
-      <y>510</y>
+      <x>540</x>
+      <y>560</y>
       <width>93</width>
       <height>29</height>
      </rect>
@@ -108,8 +108,8 @@
    <widget class="QPushButton" name="Comb_Button">
     <property name="geometry">
      <rect>
-      <x>880</x>
-      <y>510</y>
+      <x>860</x>
+      <y>560</y>
       <width>93</width>
       <height>29</height>
      </rect>
@@ -121,8 +121,8 @@
    <widget class="QPushButton" name="Counting_Button">
     <property name="geometry">
      <rect>
-      <x>760</x>
-      <y>510</y>
+      <x>740</x>
+      <y>560</y>
       <width>111</width>
       <height>29</height>
      </rect>
@@ -134,8 +134,8 @@
    <widget class="QPushButton" name="Quick_Button_2">
     <property name="geometry">
      <rect>
-      <x>140</x>
-      <y>510</y>
+      <x>120</x>
+      <y>560</y>
       <width>93</width>
       <height>29</height>
      </rect>
@@ -147,21 +147,21 @@
    <widget class="QPushButton" name="Shell_Button">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>510</y>
+      <x>20</x>
+      <y>560</y>
       <width>93</width>
       <height>29</height>
      </rect>
     </property>
     <property name="text">
-     <string>Shell Sort 3</string>
+     <string>Shell Sort</string>
     </property>
    </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>550</y>
+      <x>10</x>
+      <y>600</y>
       <width>141</width>
       <height>20</height>
      </rect>
@@ -173,31 +173,31 @@
    <widget class="QGraphicsView" name="graphicsView">
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>20</x>
       <y>20</y>
-      <width>1281</width>
-      <height>481</height>
+      <width>1291</width>
+      <height>531</height>
      </rect>
     </property>
    </widget>
    <widget class="QLabel" name="CompCount">
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>550</y>
+      <x>180</x>
+      <y>600</y>
       <width>63</width>
       <height>20</height>
      </rect>
     </property>
     <property name="text">
-     <string/>
+     <string>0</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="ArraySize">
     <property name="geometry">
      <rect>
-      <x>490</x>
-      <y>550</y>
+      <x>470</x>
+      <y>600</y>
       <width>113</width>
       <height>25</height>
      </rect>
@@ -206,8 +206,8 @@
    <widget class="QPushButton" name="arraySize_Button">
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>550</y>
+      <x>300</x>
+      <y>600</y>
       <width>131</width>
       <height>29</height>
      </rect>
@@ -219,8 +219,8 @@
    <widget class="QPushButton" name="Generate_Button">
     <property name="geometry">
      <rect>
-      <x>1180</x>
-      <y>510</y>
+      <x>1160</x>
+      <y>560</y>
       <width>131</width>
       <height>29</height>
      </rect>
@@ -232,8 +232,8 @@
    <widget class="QPushButton" name="SetDelayButton">
     <property name="geometry">
      <rect>
-      <x>660</x>
-      <y>550</y>
+      <x>640</x>
+      <y>600</y>
       <width>151</width>
       <height>29</height>
      </rect>
@@ -245,8 +245,8 @@
    <widget class="QLineEdit" name="DelayTiming">
     <property name="geometry">
      <rect>
-      <x>840</x>
-      <y>550</y>
+      <x>820</x>
+      <y>600</y>
       <width>113</width>
       <height>25</height>
      </rect>
@@ -278,7 +278,7 @@
      <x>0</x>
      <y>0</y>
      <width>1337</width>
-     <height>26</height>
+     <height>22</height>
     </rect>
    </property>
   </widget>
