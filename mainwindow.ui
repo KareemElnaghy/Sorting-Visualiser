@@ -30,9 +30,9 @@
    <widget class="QPushButton" name="Heap_Button">
     <property name="geometry">
      <rect>
-      <x>1060</x>
+      <x>1110</x>
       <y>560</y>
-      <width>93</width>
+      <width>71</width>
       <height>29</height>
      </rect>
     </property>
@@ -43,9 +43,9 @@
    <widget class="QPushButton" name="Tree_Button">
     <property name="geometry">
      <rect>
-      <x>960</x>
+      <x>940</x>
       <y>560</y>
-      <width>93</width>
+      <width>71</width>
       <height>29</height>
      </rect>
     </property>
@@ -108,9 +108,9 @@
    <widget class="QPushButton" name="Comb_Button">
     <property name="geometry">
      <rect>
-      <x>860</x>
+      <x>850</x>
       <y>560</y>
-      <width>93</width>
+      <width>81</width>
       <height>29</height>
      </rect>
     </property>
@@ -123,7 +123,7 @@
      <rect>
       <x>740</x>
       <y>560</y>
-      <width>111</width>
+      <width>101</width>
       <height>29</height>
      </rect>
     </property>
@@ -219,9 +219,9 @@
    <widget class="QPushButton" name="Generate_Button">
     <property name="geometry">
      <rect>
-      <x>1160</x>
+      <x>1190</x>
       <y>560</y>
-      <width>131</width>
+      <width>101</width>
       <height>29</height>
      </rect>
     </property>
@@ -252,6 +252,19 @@
      </rect>
     </property>
    </widget>
+   <widget class="QPushButton" name="Selection_Sort">
+    <property name="geometry">
+     <rect>
+      <x>1020</x>
+      <y>560</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Selection Sort</string>
+    </property>
+   </widget>
    <zorder>graphicsView</zorder>
    <zorder>Radix_Button</zorder>
    <zorder>Heap_Button</zorder>
@@ -271,6 +284,7 @@
    <zorder>Generate_Button</zorder>
    <zorder>SetDelayButton</zorder>
    <zorder>DelayTiming</zorder>
+   <zorder>Selection_Sort</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
